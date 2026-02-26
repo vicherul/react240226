@@ -1,6 +1,8 @@
 
 // import HolaMundo from './components/HolaMundo'
-import Victor from './components/Victor'
+
+// import Victor from './components/Victor'
+import Perfil from './components/perfil'
 import './App.css'
 
 
@@ -9,7 +11,7 @@ function App() {
     <>
 
     {/* <HolaMundo /> */}
-      <Victor />
+      <Perfil />
       
 
       {/* <div>
