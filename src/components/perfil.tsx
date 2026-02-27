@@ -12,12 +12,13 @@ const Perfil = () => {
     <div className="mi-tarjeta-estilo">
       <h2 className="name">{nameUser}</h2>
       <p className="profession">{profession}</p>
+      <p>Hobbies: {hobbies.join(", ")}</p>
 
       <p>Modulos restantes para graduarse: {10 - complementedModules}</p>
 
       {isActive ? <span className="tag-states">En linea</span> : null}
 
-
+      
     </div>
   )
 }
